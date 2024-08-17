@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_background">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/custom_bottom_nav"
+        android:layout_marginBottom="2dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/custom_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="32dp"
+        android:backgroundTint="#FCF5F6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btn_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Home"
+                android:padding="16dp"
+                app:tint="@color/original_color" />
+
+            <ImageButton
+                android:id="@+id/btn_shift_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shift"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Shift Manager"
+                android:padding="16dp"
+                app:tint="@color/dark_gray" />
+
+            <ImageButton
+                android:id="@+id/btn_monthly_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/report"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Monthly Report"
+                android:padding="16dp"
+                app:tint="@color/dark_gray" />
+
+            <ImageButton
+                android:id="@+id/btn_users"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/employee"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Profile"
+                android:padding="16dp"
+                app:tint="@color/dark_gray" />
+
+            <ImageButton
+                android:id="@+id/btn_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Users"
+                android:padding="16dp"
+                android:scaleType="center"
+                app:tint="@color/dark_gray" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:layout_margin="15dp"
+    >
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="@drawable/abc"
+android:padding="8dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workplace :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            >
+
+        </TextView>
+
+<TextView
+    android:id="@+id/workplaceNameTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_marginLeft="10dp"
+    android:layout_gravity="center_horizontal"
+    android:textColor="@color/white"
+     />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:padding="10dp"
+
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shift Started :"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        >
+
+    </TextView>
+
+<TextView
+    android:id="@+id/fromDateTimeTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:textColor="@color/white"
+
+    android:textSize="14sp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shift ended :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            >
+
+        </TextView>
+<TextView
+    android:id="@+id/toDateTimeTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="14sp"
+    android:layout_marginLeft="10dp"
+    android:textColor="@color/white"
+    />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revenue :"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            >
+
+        </TextView>
+<TextView
+    android:id="@+id/totalEarningsTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="14sp"
+    android:layout_marginLeft="10dp"
+    android:textColor="@color/white"
+    />
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </androidx.cardview.widget.CardView>

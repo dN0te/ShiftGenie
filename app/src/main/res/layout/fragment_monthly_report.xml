@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly Report"
+            android:textSize="26dp"
+            android:letterSpacing="0.3"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp" />
+        <!-- Navigation buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Previous month button -->
+            <ImageView
+                android:id="@+id/prevMonthButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/left"
+                android:layout_marginRight="20dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="Previous Month" />
+
+            <!-- Month name display -->
+            <TextView
+                android:id="@+id/monthNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:text="Month Name" />
+
+            <!-- Next month button -->
+            <ImageView
+                android:id="@+id/nextMonthButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/right"
+                android:layout_marginLeft="20dp"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="Next Month" />
+
+        </LinearLayout>
+
+        <!-- Inside fragment_monthly_report.xml -->
+        <TextView
+            android:id="@+id/totalMonthlyEarningsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:padding="4dp"/>
+        <TextView
+            android:id="@+id/totalMonthlyHoursTextView"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+        <!-- GridView for dates -->
+        <GridView
+            android:id="@+id/calendarGridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="7"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:padding="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For daily report Click any Date"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/monthlyReportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly Report"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/back"
+        android:layout_gravity="center_horizontal"/>
+<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shiftsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

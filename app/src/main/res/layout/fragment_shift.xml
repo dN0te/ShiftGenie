@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context=".ShiftFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Shift"
+            android:textSize="26dp"
+            android:letterSpacing="0.3"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/selectedWorkplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selected workplace:"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true" />
+
+            <Spinner
+                android:id="@+id/workplaceSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/selectedWorkplace"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="28dp" />
+
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/etFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="From"
+            android:focusable="false"
+            android:clickable="true"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:drawableTint="@color/white"
+            android:drawableEnd="@drawable/ic_calendar" />
+
+        <EditText
+            android:id="@+id/etTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="To"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:drawableTint="@color/white"
+
+            android:drawableEnd="@drawable/ic_calendar" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnCreate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create"
+            android:background="@drawable/back"
+            android:textAllCaps="false"
+
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+

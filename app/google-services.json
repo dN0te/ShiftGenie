@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "613515880758",
+    "firebase_url": "https://shiftgenie-46f3e-default-rtdb.firebaseio.com",
+    "project_id": "shiftgenie-46f3e",
+    "storage_bucket": "shiftgenie-46f3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613515880758:android:e81783b57a76befa5fab97",
+        "android_client_info": {
+          "package_name": "com.example.shiftgenie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613515880758-gtspms547mjp8kaicchukq535o884659.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shiftgenie",
+            "certificate_hash": "af3a73e48ead61513fabfa198cb3e29049746524"
+          }
+        },
+        {
+          "client_id": "613515880758-rshv4nqj8nbhv0dt6se9kpo1rug2dqfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJCmRhMmsUxgNDsT1fO6YFlqCTei5ozGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613515880758-rshv4nqj8nbhv0dt6se9kpo1rug2dqfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

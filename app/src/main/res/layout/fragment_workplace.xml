@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Workplace"
+            android:textSize="26dp"
+            android:textColor="@color/white"
+            android:letterSpacing="0.3"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etWorkplaceName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/edit_text_background"
+            android:hint="Workplace Name" />
+
+        <EditText
+            android:id="@+id/etHourlyWage"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Hourly Wage"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etVacationPayments"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Vacation Payments"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etDeductionPreShift"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Deduction Pre Shift"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etBonusesPreShift"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Bonuses Pre Shift"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etBreakTime"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Break Time (unpaid in minutes)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etDailyTravelExpenses"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Daily Travel Expenses"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etMonthlyTravelExpenses"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Monthly Travel Expenses"
+            android:inputType="numberDecimal" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/back"
+            android:text="Save" />
+
+    </LinearLayout>
+

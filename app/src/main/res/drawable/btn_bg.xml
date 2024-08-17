@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff" />
+        </shape>
+    </item>
+
+    <!-- Bottom pink curve -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF416C" />
+            <corners android:bottomRightRadius="800dp"/>
+        </shape>
+    </item>
+
+    <!-- Middle purple curve -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#8F2648" />
+            <corners android:bottomRightRadius="700dp"/>
+        </shape>
+    </item>
+
+    <!-- Top navy curve -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#2D3A45" />
+            <corners android:bottomRightRadius="600dp"/>
+            <stroke android:width="2dp" android:color="#000000"/>
+        </shape>
+    </item>
+
+</layer-list>

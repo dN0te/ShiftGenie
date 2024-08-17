@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_shift_manager"
+        android:icon="@drawable/shift"
+        android:title="Shift Manager" />
+    <item
+        android:id="@+id/navigation_monthly_report"
+        android:icon="@drawable/report"
+        android:title="Monthly Report" />
+    <item
+        android:id="@+id/users"
+        android:icon="@drawable/employee"
+        android:title="Employees" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+</menu>
