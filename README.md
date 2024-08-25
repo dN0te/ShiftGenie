@@ -1,6 +1,3 @@
-Here's an expanded and well-styled Markdown version of the information about your ShiftGenie app:
-
----
 
 # ShiftGenie
 
@@ -145,10 +142,6 @@ We welcome contributions from the community! If you’d like to contribute:
 
 Please ensure that your contributions are well-documented and tested before submission.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📬 Contact
 
 Yuval - Yuvalarbel16@gmail.com
@@ -156,11 +149,3 @@ Yuval - Yuvalarbel16@gmail.com
 Project Link: [https://github.com/dN0te/ShiftGenie](https://github.com/dN0te/ShiftGenie)
 
 ---
-
-### Tips for Finalizing Your README
-
-- **Update Image Paths**: Replace `"path/to/your/logo.png"` and screenshot paths with the actual paths or URLs to your images.
-- **Add Relevant Links**: Ensure that all links, such as the `LICENSE` file link, are correctly set up.
-- **Customize Contact Information**: Update the contact section with your actual email or preferred method of communication.
-
-This README provides a professional and comprehensive overview of your ShiftGenie project, highlighting its key features, target audience, and technologies used. It also includes clear instructions on how to get started with the project and how to contribute, making it an excellent resource for users and contributors alike.
